@@ -42,7 +42,7 @@ export default function LoginPage() {
             href="/register"
             className="hover:text-brand underline underline-offset-4"
           >
-            Don&apos;t have an account? Sign Up
+            Don&apos;t have an account? Sign Up mk1
           </Link>
         </p>
       </div>
