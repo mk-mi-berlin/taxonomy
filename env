@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# App
+# -----------------------------------------------------------------------------
+NEXT_PUBLIC_APP_URL=http://taxdom.99point99.de
+
+# -----------------------------------------------------------------------------
+# Authentication (NextAuth.js)
+# -----------------------------------------------------------------------------
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET=taxdom
+
+GITHUB_CLIENT_ID=4eab3c06a7a3ce6bed28
+GITHUB_CLIENT_SECRET=9d55cea265d71d54905e67ba4852c79b65137ade
+GITHUB_ACCESS_TOKEN=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
+
+# -----------------------------------------------------------------------------
+# Database (MySQL - PlanetScale)
+# -----------------------------------------------------------------------------
+DATABASE_URL='mysql://pms29peszrtia2ljeygr:pscale_pw_16UKXpIZeaSLdBMZdnEEnI7Q49SZLtlqTtEEhI8YsJH@aws.connect.psdb.cloud/taxdom?ssl={"rejectUnauthorized":true}'
+
+# -----------------------------------------------------------------------------
+# Email (Postmark)
+# -----------------------------------------------------------------------------
+SMTP_FROM=mk
+POSTMARK_API_TOKEN=f7b51642-2d24-489a-8fae-520c5f11cb16
+POSTMARK_SIGN_IN_TEMPLATE=31444018
+POSTMARK_ACTIVATION_TEMPLATE=31616416
+
+# -----------------------------------------------------------------------------
+# Subscriptions (Stripe)
+# -----------------------------------------------------------------------------
+STRIPE_API_KEY=pk_test_51N34ILGszGoURDZ9tKqtQlCF8C6wYrEVN9oarjC4GbolERqTuq2dFri8lOLlBxRQDcHxvTd1mKrr3RU6BWsSqhqk001XEYMlFg
+STRIPE_WEBHOOK_SECRET=whsec_SRGbEu8MMy28CxsisFUwGYBkCgRSB3Pu
+STRIPE_PRO_MONTHLY_PLAN_ID=prod_NohrSsN6NLimlr
